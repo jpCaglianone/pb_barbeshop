@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "nome": "Barbearia Premium",
+        "endereco": {
+            "rua": "Rua das Flores",
+            "numero": 123,
+            "bairro": "Centro",
+            "cidade": "São Paulo",
+            "estado": "SP",
+            "cep": "01000-000"
+        },
+        "telefone": "(11) 1234-5678",
+        "servicos": [
+            {
+                "id": 1,
+                "nome": "Corte de cabelo",
+                "preco": 50.0
+            },
+            {
+                "id": 2,
+                "nome": "Barba completa",
+                "preco": 40.0
+            }
+        ],
+        "horarios": {
+            "segunda_a_sexta": "09:00 - 19:00",
+            "sabado": "10:00 - 16:00",
+            "domingo": "Fechado"
+        }
+    },
+    {
+        "id": 2,
+        "nome": "Barbearia Elegante",
+        "endereco": {
+            "rua": "Av. Paulista",
+            "numero": 456,
+            "bairro": "Bela Vista",
+            "cidade": "São Paulo",
+            "estado": "SP",
+            "cep": "01310-000"
+        },
+        "telefone": "(11) 9876-5432",
+        "servicos": [
+            {
+                "id": 1,
+                "nome": "Corte de cabelo",
+                "preco": 60.0
+            },
+            {
+                "id": 3,
+                "nome": "Hidratação de cabelo",
+                "preco": 30.0
+            },
+            {
+                "id": 4,
+                "nome": "Relaxamento de barba",
+                "preco": 45.0
+            }
+        ],
+        "horarios": {
+            "segunda_a_sexta": "08:00 - 20:00",
+            "sabado": "09:00 - 18:00",
+            "domingo": "Fechado"
+        }
+    }
+]
