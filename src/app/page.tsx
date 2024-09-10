@@ -29,9 +29,7 @@ export default function Home() {
 
   return (
     <MyContext.Provider value={{ user, setUser }}>
-      <main>
-        <Index />
-      </main>
+
     </MyContext.Provider>
   );
 }

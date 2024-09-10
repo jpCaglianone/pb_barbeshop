@@ -32,7 +32,7 @@ export const menuGroup = [
                 label: "Agendar",
                 route: "/Sidebar/",
                 children: [
-                    { label: "Por profissional", route: "/" },
+                    { label: "Por profissional", route: "/" }, 
                     { label: "Por serviço", route: "/" },
                     { label: "Por unidade", route: "/Sidebar/RegisterServiceByUnits" }]
 

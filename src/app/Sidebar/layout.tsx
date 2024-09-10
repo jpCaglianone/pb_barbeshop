@@ -103,6 +103,7 @@ const DashboardLayout = ({ children }: SidebarProps) => {
           <div className="flex-grow p-6 bg-white text-black">
             {children}
           </div>
+          
         </div>
       </ChakraProvider>
     </>
